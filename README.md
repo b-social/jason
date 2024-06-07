@@ -24,7 +24,7 @@ For database JSON:
 Add the following to your `project.clj` file:
 
 ```clj
-[b-social/jason "0.1.5"]
+[b-social/jason "0.1.6"]
 ```
 
 ## Documentation
