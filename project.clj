@@ -6,10 +6,10 @@
             :url  "https://opensource.org/licenses/MIT"}
 
   :dependencies
-  [[metosin/jsonista "0.2.2"]
-   [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.9.9"]
-   [com.fasterxml.jackson.datatype/jackson-datatype-jsr310 "2.9.9"]
-   [camel-snake-kebab "0.4.1"]]
+  [[metosin/jsonista "0.3.8"]
+   [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.15.2"]
+   [com.fasterxml.jackson.datatype/jackson-datatype-jsr310 "2.15.2"]
+   [camel-snake-kebab "0.4.3"]]
 
   :plugins [[lein-cloverage "1.0.13"]
             [lein-shell "0.5.0"]
@@ -22,7 +22,7 @@
             [lein-bikeshed "0.5.1"]]
 
   :profiles {:shared {:dependencies
-                      [[org.clojure/clojure "1.10.1"]
+                      [[org.clojure/clojure "1.11.3"]
                        [clj-time "0.15.2"]
                        [eftest "0.5.8"]]}
              :dev    [:shared {:source-paths ["dev"]
