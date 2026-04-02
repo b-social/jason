@@ -7,6 +7,7 @@
 
   :dependencies
   [[metosin/jsonista "0.3.10"]
+   [com.fasterxml.jackson.core/jackson-core "2.18.6"]
    [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.17.2"]
    [com.fasterxml.jackson.datatype/jackson-datatype-jsr310 "2.17.2"]
    [camel-snake-kebab "0.4.3"]]
