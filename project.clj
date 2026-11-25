@@ -9,7 +9,11 @@
   [[metosin/jsonista "0.3.10"]
    [com.fasterxml.jackson.datatype/jackson-datatype-joda "2.17.2"]
    [com.fasterxml.jackson.datatype/jackson-datatype-jsr310 "2.17.2"]
-   [camel-snake-kebab "0.4.3"]]
+   [camel-snake-kebab "0.4.3"]
+   [com.fasterxml.jackson.core/jackson-databind]]
+
+  :managed-dependencies
+  [[com.fasterxml.jackson.core/jackson-databind "2.18.9"]]
 
   :plugins [[lein-cloverage "1.0.13"]
             [lein-shell "0.5.0"]
